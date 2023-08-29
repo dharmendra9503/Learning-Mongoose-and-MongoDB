@@ -4,6 +4,7 @@ const Dotenv = require('dotenv');
 Dotenv.config({ silent: true });
 var http = require('http');
 const connectDB = require('./db/config');
+const Blog = require('./models/blog.model');
 
 const port = process.env.PORT;
 
